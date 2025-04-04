@@ -1,0 +1,21 @@
+.header{ 
+    padding: 15px 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0E3763;
+}
+
+.logo {
+    width: 68px;
+    height: 65px;
+    background-image: url('../../assets/logo.png');
+    background-size: contain;
+}
+
+.button {
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid #FFF;
+    color: #FFF;
+}

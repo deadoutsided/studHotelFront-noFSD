@@ -1,0 +1,90 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 467px;
+    padding: 40px 25px 50px;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+
+.label {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label + .label {
+    margin: 30px 0 0;
+}
+
+.label + .checkboxWrapper {
+    margin: 15px 0 0px;
+}
+
+.input {
+    border: 1px solid #7AABBC;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 10px 0 0;
+    padding: 10px 5px;
+}
+
+.checkboxWrapper {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+}
+
+.checkboxWrapper::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid #7AABBC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.checkboxWrapper:has(.checkboxInput:focus):before {
+    content: '';
+    border-color: black;
+    border-width: 2px;
+}
+
+.checkboxWrapper:has(.checkboxInput:checked):before {
+    content: url('../../assets/checkmark20x20.svg');
+}
+
+.checkboxInput {
+    opacity: 0;
+}
+
+.submitBtn {
+    background-color: #093360;
+    color: #FFF;
+    margin: 30px 0;
+}
+
+.link {
+    color: #093360;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.link:before {
+    content: url('../../assets/changePassIcon.svg');
+    display: inline-block;
+    height: 25px;
+    margin: 0 9px 0 0;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #093360;
+}

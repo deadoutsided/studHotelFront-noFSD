@@ -1,0 +1,33 @@
+.footer {
+    padding: 0px 14vw 0px;
+    background-color: #F5FAFF;
+}
+
+.wrapper {
+    padding: 61px 0 85px;
+    border: 1px solid #7AABBC;
+    border-width: 1px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.par {
+    font-size: 24px;
+    color: #093360;
+}
+
+.linksWrapper {
+    display: flex;
+    column-gap: 65px;
+    margin: 50px;
+}
+
+.link {
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}

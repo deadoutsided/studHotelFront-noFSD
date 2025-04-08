@@ -2,22 +2,65 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 170px 400px 0;
+    padding: 160px 400px 0;
     text-align: center;
     background-image: url('../../assets/cover_bg.png');
     background-size: contain;
     box-sizing: border-box;
     height: 700px;
+    background-color: #F5FAFF;
 }
 
 .mainTitle {
     font-size: 72px;
+    line-height: 68px;
     background-image: linear-gradient(0.25turn, #0E3763, #296EB9);
     color: transparent;
     background-clip: text;
+    margin: 0 0 40px;
 }
 
 .secondaryTitle {
     font-size: 20px;
+    line-height: 25px;
     color: #002C5B;
+    font-weight: 400;
+    max-width: 650px;
+    margin: 0 0 80px;
+}
+
+.arrowIcon {
+    width: 35px;
+    height: 35px;
+    background-image: url('../../assets/coverArrowDown.png');
+    margin: 120px 0 0;
+}
+
+.dormentarySection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5FAFF;
+    background-image: url('../../assets/dormentaryListBG.png');
+    background-size: cover;
+}
+
+.roomsListTitle {
+    font-size: 50px;
+    font-weight: 500;
+    background-image: linear-gradient(0.25turn, #0E3763, #296EB9);
+    color: transparent;
+    background-clip: text;
+    margin: 130px 0 50px;
+    text-align: center;
+    max-width: 950px;
+}
+
+.dormentoryList {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    padding: 0 180px;
+    margin: 0 0 170px;
 }

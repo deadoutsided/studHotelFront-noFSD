@@ -1,14 +1,19 @@
-import { useState } from 'react'
 import styles from './style.module.css'
 import Header from '@components/header/header'
-import { Outlet } from 'react-router'
+import { Outlet, useLocation, useNavigate } from 'react-router'
+import Footer from '@components/footer/footer'
 
 function MainLayout() {
 
+  const location = useLocation();
+  const navigate = useNavigate();
+  console.log(location)
+
   return (
     <main className={styles.layout}>
-        <Header />
+        <Header btnText={location.pathname === '/' ? 'Войти' : 'Назад'} btnFunc={() => { navigate('/') }} />
         <Outlet />
+        <Footer />
     </main>
   )
 }

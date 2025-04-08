@@ -1,14 +1,13 @@
 import SearchDormentaryForm from "@components/search-dormentary-form/search-dormentary-form";
 import styles from "./style.module.css";
 import DormentoryItem from "@components/dormentary-item/dormentory-item";
+import PageTitle from "@components/page-title/page-title";
 
 function Cover() {
   return (
     <>
       <section className={styles.cover}>
-        <h1 className={styles.mainTitle}>
-          Ваш идеальный выбор для комфортного отдыха!
-        </h1>
+        <PageTitle text='Ваш идеальный выбор для комфортного отдыха!' />
         <h2 className={styles.secondaryTitle}>
           На этом сайте вы можете выбрать и подать заявку для остановки в
           общежитиях повышенной комфортности!

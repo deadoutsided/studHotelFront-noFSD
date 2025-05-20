@@ -1,15 +1,20 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
+import { baseApi } from './api/baseApi'
 
-const rootReducer = combineReducers({
-    /* categoryPreview: categoryPreviewReducer,
+/* const rootReducer = combineReducers({
+    categoryPreview: categoryPreviewReducer,
     bookList: bookListReducer,
     bookDescription: bookDescriptionReducer,
     cart: cartReducer,
-    search: searchReducer, */
-})
+    search: searchReducer,
+}) */
 
 export const store = configureStore({
-    reducer: rootReducer,
+    reducer: {
+        [baseApi.reducerPath]: baseApi.reducer,
+    },
+    middleware: (getDefaultMiddleware) =>
+        getDefaultMiddleware().concat(baseApi.middleware),
   })
 
   export type RootState = ReturnType<typeof store.getState>

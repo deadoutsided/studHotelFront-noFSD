@@ -1,0 +1,58 @@
+.formWrapper {
+    padding: 40px 50px;
+    border-radius: 20px;
+    background-color: #FFF;
+    max-height: 50%;
+    box-shadow: 0px 4px 4px #0000004b ;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: start;
+    font-size: 24px;
+    height: min-content;
+    max-width: 815px;
+}
+
+.formTitle { 
+    font-weight: 700;
+}
+
+.fieldsWrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 50px;
+    align-items: center;
+}
+
+.input {
+    font-size: 24px;
+    border: 1px solid #7AABBC;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.label {
+    width: calc(50% - 25px);
+    position: relative;
+}
+
+.labelText {
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    background-color: #FFF;
+    top: -15px;
+    left: 30px;
+    padding: 0 5px;
+}
+
+.submitBtn {
+    font-weight: 700;
+    background-color: #FFF;
+    border: 1px solid #7AABBC;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 15px 25px;
+}

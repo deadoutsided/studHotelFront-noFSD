@@ -1,0 +1,11 @@
+.dormentoryImgWrapper {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #FFF;
+    max-height: 50%;
+}
+
+.dormentoryImg {
+    border-radius: 20px;
+    max-width: 100%;
+}

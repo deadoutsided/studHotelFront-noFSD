@@ -1,0 +1,56 @@
+.сustomSelect,
+::picker(select) {
+  appearance: base-select;
+}
+
+::picker(select) {
+  background-color: #0E3763;
+  border: none;
+  border-radius: 0 0 20px 20px;
+}
+
+.сustomSelect {
+  border: none;
+  background-color: #0E3763;
+  color: #FFF;
+  min-width: 192px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.сustomSelect:focus-visible {
+  outline: none;
+}
+
+.сustomSelect::before {
+    content: url('../../assets/placeIcon.png');
+}
+
+.сustomSelect::picker-icon {
+    display: none;
+}
+
+.customSelectOption {
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    padding: 2px 15px 2px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.customSelectOption:first-of-type {
+  margin: 30px 0 0;
+}
+
+.customSelectOption:last-of-type {
+  margin: 0px 0 10px;
+}
+
+.customSelectOption::checkmark {
+    display: none;
+}
+
+/* .customSelectOption:hover {
+    background-color: #0E3763;
+} */

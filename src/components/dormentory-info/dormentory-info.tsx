@@ -32,7 +32,7 @@ function DormentoryInfo({
             Приказ о размере оплаты
           </Link>
         </div>
-        <Link className={styles.linkColor} to="/">
+        <Link className={styles.linkColor} to="/booking-request">
           Отправить заявку на проживание
         </Link>
       </div>

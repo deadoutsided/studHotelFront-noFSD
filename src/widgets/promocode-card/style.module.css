@@ -1,0 +1,45 @@
+.promocodeCardWrapper {
+    padding: 30px 15px;
+    border-radius: 20px;
+    background-color: #FFF;
+    max-height: 50%;
+    box-shadow: 0px 4px 4px #0000004b ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    max-width: 350px;
+    height: min-content;
+}
+
+.label {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.input {
+    border: 1px solid #7AABBC;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.title {
+    font-weight: 700;
+    text-align: center;
+}
+
+.par {
+    font-size: 12px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.changeProfileBtn {
+    background-color: #2464AA;
+    color: #FFF;
+    padding: 10px 35px;
+    margin: 20px 0 0;
+}

@@ -1,0 +1,83 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 997px;
+    padding: 40px 25px 50px;
+    background-color: #FFF;
+    border-radius: 20px;
+    gap: 30px;
+    color: black;
+}
+
+.labelRowWrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.label {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.requiredMark {
+    color: red;
+}
+
+/* .label + .label {
+    margin: 30px 0 0;
+} */
+
+.label + .checkboxWrapper {
+    margin: 15px 0 0px;
+}
+
+.input {
+    border: 1px solid #7AABBC;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 10px 0 0;
+    padding: 10px 5px;
+    width: 100%;
+}
+
+.checkboxWrapper {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 9px;
+}
+
+.checkboxWrapper::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid #7AABBC;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.checkboxWrapper:has(.checkboxInput:focus):before {
+    content: '';
+    border-color: black;
+    border-width: 2px;
+}
+
+.checkboxWrapper:has(.checkboxInput:checked):before {
+    content: url('../../assets/checkmark20x20.svg');
+}
+
+.checkboxInput {
+    opacity: 0;
+    position: absolute;
+}
+
+.submitBtn {
+    background-color: #093360;
+    color: #FFF;
+}

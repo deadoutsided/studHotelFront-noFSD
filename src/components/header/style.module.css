@@ -1,21 +1,42 @@
 .header{ 
     padding: 15px 170px;
     display: flex;
+    box-sizing: border-box;
+    height: 95px;
     justify-content: space-between;
     align-items: center;
     background-color: #0E3763;
 }
 
 .logo {
-    width: 68px;
-    height: 65px;
-    background-image: url('../../assets/logo.png');
+    width: 178px;
+    height: 38px;
+    background-image: url('../../assets/logoStudHotel.png');
     background-size: contain;
 }
 
 .button {
     background-color: transparent;
+    font-size: 14px;
     border-radius: 30px;
+    padding: 5px;
     border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.controlsWrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.navLink {
+    margin: 0 30px 0 auto;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.navLink:hover {
     color: #FFF;
 }

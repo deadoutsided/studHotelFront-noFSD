@@ -25,35 +25,35 @@ function Cover() {
             address="ОПК№1 Смольный Буян дом 3/1, 2 этаж"
             price={2800}
             imgLink="https://www.catsluvus.com/wp-content/uploads/2020/06/89074971_641127506698738_6029162344960619676_n.jpg"
-            link="/"
+            link="/info"
           />
           <DormentoryItem
             title="Комната повышенной комфортности(двуспальная кровать)"
             address="ОПК№1 Смольный Буян дом 3/1, 2 этаж"
             price={2800}
             imgLink="https://www.catsluvus.com/wp-content/uploads/2020/06/89074971_641127506698738_6029162344960619676_n.jpg"
-            link="/"
+            link="/info"
           />
           <DormentoryItem
             title="Комната повышенной комфортности(двуспальная кровать)"
             address="ОПК№1 Смольный Буян дом 3/1, 2 этаж"
             price={2800}
             imgLink="https://www.catsluvus.com/wp-content/uploads/2020/06/89074971_641127506698738_6029162344960619676_n.jpg"
-            link="/"
+            link="/info"
           />
           <DormentoryItem
             title="Комната повышенной комфортности(двуспальная кровать)"
             address="ОПК№1 Смольный Буян дом 3/1, 2 этаж"
             price={2800}
             imgLink="https://www.catsluvus.com/wp-content/uploads/2020/06/89074971_641127506698738_6029162344960619676_n.jpg"
-            link="/"
+            link="/info"
           />
           <DormentoryItem
             title="Комната повышенной комфортности(двуспальная кровать)"
             address="ОПК№1 Смольный Буян дом 3/1, 2 этаж"
             price={2800}
             imgLink="https://www.catsluvus.com/wp-content/uploads/2020/06/89074971_641127506698738_6029162344960619676_n.jpg"
-            link="/"
+            link="/info"
           />
         </div>
       </section>

@@ -1,0 +1,16 @@
+.page {
+    font-size: 20px;
+    line-height: 25px;
+    color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 130px 0 90px;
+  }
+  
+.requestsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+  

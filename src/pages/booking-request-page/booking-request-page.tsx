@@ -10,7 +10,7 @@ function BookingRequestPage() {
       <PageTitle text="Заявка на бронирование" />
       <div className={styles.miniInfoAndFormWrapper}>
         <div className={styles.dormentoryMiniInfo}>
-          <DormentoryImgItem link="https://unchainedcrypto.com/wp-content/uploads/2024/08/Untitled-design.png" />
+          <DormentoryImgItem link="https://avatars.mds.yandex.net/get-altay/5538812/2a00000184263ac93c0fe7ca5f149526151b/L_height" />
           <span className={styles.strongPar}>
             Общежитие повышенной комфортности ФГАОУ ВО Северный (Арктический)
             федеральный университет имени М.В.Ломоносова (САФУ)(г. Архангельск)

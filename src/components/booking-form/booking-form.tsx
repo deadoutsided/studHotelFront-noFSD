@@ -6,6 +6,7 @@ function BookingForm() {
     <form
       className={styles.form}
       method="post"
+      data-testid="booking-form"
       onSubmit={async (e) => {
         e.preventDefault();
         console.log(e.currentTarget);

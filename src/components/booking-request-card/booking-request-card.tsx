@@ -1,7 +1,7 @@
 import { usePatchRequestMutation } from "@lib/store/api/eventsApi";
 import styles from "./style.module.css";
 
-type RequestData = {
+export type RequestData = {
     id: string;
 
     roomType: string;

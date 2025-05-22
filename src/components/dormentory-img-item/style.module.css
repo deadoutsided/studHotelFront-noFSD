@@ -2,10 +2,12 @@
     padding: 10px;
     border-radius: 20px;
     background-color: #FFF;
-    max-height: 50%;
+    max-height: 400px; /* проблема, что в разных контекстах юзается компонент и это значение надо менять и адоптироват под конкр страницу */
+    width: fit-content;
 }
 
 .dormentoryImg {
     border-radius: 20px;
     max-width: 100%;
+    max-height: 100%;
 }

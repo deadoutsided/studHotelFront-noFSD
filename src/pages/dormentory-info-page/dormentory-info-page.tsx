@@ -9,8 +9,8 @@ function DormentoryInfoPage() {
       <PageTitle text="Информация об общежитии" />
       <div className={styles.flexComponentsWrapper}>
         <div className={styles.imagesWrapper}>
-          <DormentoryImgItem link="https://unchainedcrypto.com/wp-content/uploads/2024/08/Untitled-design.png" />
-          <DormentoryImgItem link="https://unchainedcrypto.com/wp-content/uploads/2024/08/Untitled-design.png" />
+          <DormentoryImgItem link="https://avatars.mds.yandex.net/get-altay/6221595/2a00000180be641f71c21af88958d8731a68/orig" />
+          <DormentoryImgItem link="https://avatars.mds.yandex.net/get-altay/5538812/2a00000184263ac93c0fe7ca5f149526151b/L_height" />
         </div>
         <DormentoryInfo
           address="

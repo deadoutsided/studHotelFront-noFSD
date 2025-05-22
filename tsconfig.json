@@ -1,4 +1,8 @@
 {
+  "compilerOptions": { 
+        "module": "ESNext",
+        "types": ["@testing-library/jest-dom"]
+    },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
